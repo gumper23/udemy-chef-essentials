@@ -17,9 +17,9 @@ def set_hostname(server)
 end
 
 Vagrant.configure(2) do |config|
-  config.vm.define 'ubuntu-20-04' do |n|
+  config.vm.define 'uce-ubuntu-20-04' do |n|
     n.vm.box = 'bento/ubuntu-20.04'
-    n.vm.hostname = 'ubuntu-20-04'
+    n.vm.hostname = 'uce-ubuntu-20-04'
     n.vm.provision :shell, inline: NODE_SCRIPT.dup
     set_hostname(n)
   end

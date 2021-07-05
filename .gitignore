@@ -17,6 +17,9 @@
 clients
 nodes
 
+## Ignore .vagrant
+.vagrant
+
 # ## OS junk files
 # [Tt]humbs.db
 # *.DS_Store

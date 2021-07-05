@@ -13,7 +13,7 @@ end
 
 template '/var/www/html/index.html' do
   source 'index.html.erb'
-  mode '0755'
+  mode '0444'
   owner 'www-data'
   group 'www-data'
 end

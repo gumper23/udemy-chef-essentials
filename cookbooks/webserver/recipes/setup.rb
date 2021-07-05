@@ -8,5 +8,5 @@ package 'apache2' do
 end
 
 service 'apache2' do
-  action :start
+  action [:start, :enable]
 end

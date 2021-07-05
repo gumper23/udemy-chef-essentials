@@ -21,6 +21,7 @@ Vagrant.configure(2) do |config|
     n.vm.box = 'bento/ubuntu-20.04'
     n.vm.hostname = 'uce-ubuntu-20-04'
     n.vm.provision :shell, inline: NODE_SCRIPT.dup
+    n.vm.network 'forwarded_port', guest: 80, host: 8080
     set_hostname(n)
   end
 end

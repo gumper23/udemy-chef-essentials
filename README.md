@@ -23,4 +23,5 @@ Read the README file in each of the subdirectories for more information about wh
 ```
 cd ~/udemy-chef-essentails/cookbooks
 sudo chef-client -zr "recipe[workstation]" --chef-license accept
+sudo chef-client -zr "recipe[webserver]" --chef-license accept
 ```

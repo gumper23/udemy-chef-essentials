@@ -3,6 +3,10 @@
 # Recipe:: setup
 #
 # Copyright:: 2021, The Authors, All Rights Reserved.
+apt_update 'Update the apt cache' do
+  action :update
+end
+
 package 'apache2' do
   action :install
 end

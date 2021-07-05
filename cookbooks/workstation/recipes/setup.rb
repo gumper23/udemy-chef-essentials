@@ -11,6 +11,10 @@ package 'ntp' do
   action :install
 end
 
+package 'net-tools' do
+  action :install
+end
+
 package 'jq' do
   action :install
 end

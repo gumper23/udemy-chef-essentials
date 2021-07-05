@@ -1,6 +1,6 @@
 name 'webserver'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Me'
+maintainer_email 'me@example.com'
 license 'All Rights Reserved'
 description 'Installs/Configures webserver'
 version '0.1.0'

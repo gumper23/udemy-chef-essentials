@@ -18,3 +18,9 @@ The config file, `.chef/config.rb` is a repository-specific configuration file f
 ## Next Steps
 
 Read the README file in each of the subdirectories for more information about what goes in those directories.
+
+## Run
+```
+cd ~/udemy-chef-essentails/cookbooks
+sudo chef-client -zr "recipe[workstation]" --chef-license accept
+```

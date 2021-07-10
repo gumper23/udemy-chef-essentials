@@ -31,4 +31,8 @@ package 'autojump' do
   action :install
 end
 
+package 'dmidecode' do
+  action :install
+end
+
 log "lsb_release #{node['lsb']['codename']}"
